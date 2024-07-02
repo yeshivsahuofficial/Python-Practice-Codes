@@ -60,10 +60,10 @@ Game Start
         if (Ucount == Ccount):
             print("The match was Draw!.")
         elif (Ucount > Ccount):
-            print('''User Won
-Congratulations and Celebrations.''')
+            print('User Won the Final Game.')
+            print('Congratulations and Celebrations.')
         else:
-            print("Computer Won!")
+            print("Computer Won the Final Game!")
             print("Better LUCK Next Time")
     else:
         break
